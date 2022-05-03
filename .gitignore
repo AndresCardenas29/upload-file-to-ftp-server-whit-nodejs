@@ -1,0 +1,10 @@
+#modules
+node_modules/
+#settings vscode
+.vscode
+#folder uplaod
+uploads/
+#folder ftp-data
+ftp-data/**
+
+*.passwd

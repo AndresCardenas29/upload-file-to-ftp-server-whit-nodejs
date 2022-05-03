@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  vsftpd:
+    image: panubo/vsftpd
+    ports:
+      - "21:21"
+    environment:
+      - FTP_USER=mario
+      - FTP_PASSWORD=1234
+    volumes:
+      - "./ftp-data/data:/srv"
+    restart: always

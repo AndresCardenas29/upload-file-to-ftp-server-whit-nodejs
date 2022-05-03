@@ -4,16 +4,16 @@ Tree files
 *.passwd
 node-ftp
 ├── config/
-		└── config.js
+	└── config.js
 ├── controller/
-		└── ftp.controller.js
+	└── ftp.controller.js
 ├── ftp-data/
-		├── data/
-				└── shop.jpg
-		└── passwd/
-				└── pureftpd.passwd
-├── uploads/
+	├── data/
 		└── shop.jpg
+	└── passwd/
+		└── pureftpd.passwd
+├── uploads/
+	└── shop.jpg
 ├── .gitiignore
 ├── app.js
 ├── docker-compose.yml

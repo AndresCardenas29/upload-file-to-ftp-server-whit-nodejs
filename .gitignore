@@ -5,7 +5,5 @@ node_modules/
 #folder uplaod
 uploads/
 #folder ftp-data
-ftp-data/data/*
-!ftp-data/
 
 *.passwd

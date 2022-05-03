@@ -3,7 +3,7 @@ node_modules/
 #settings vscode
 .vscode
 #folder uplaod
-uploads/
+uploads/*
 #folder ftp-data
 
 *.passwd
